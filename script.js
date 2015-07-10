@@ -17,16 +17,21 @@ var lineChart = new Chartist.Line(
             type: Chartist.FixedScaleAxis,                       
             ticks: ["$", 500, 1000],
             low: 0,
-            high: 1000
+            high: 1000,
+            labelOffset: {
+		      x: 0,
+		      y: 5
+		    }
         },
         axisX: {
 	        labelOffset: {
-		      x: -30,
+		      x: -20,
 		      y: 0
-		    }
+		    },
+		    showGrid: false,
 		},
-		width: 600,
-		height: 200,  
+		width: 800,
+		height: 250,  
 		series: {'one': {showArea: true}},
 		lineSmooth: false,
 		fullWidth: true,
@@ -53,10 +58,11 @@ var barChart = new Chartist.Bar(
             high: 10,                     
             ticks: [0, 5, 10]
         }, 
-        low: 0,
-        high: 10,
-		width: 565,
-		height: 200
+        axisX: {
+		    showGrid: false
+		},
+		width: 670,
+		height: 220
 	}
 );
 

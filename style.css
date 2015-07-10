@@ -1,3 +1,89 @@
+* {
+	font-size: 12px !important; 
+
+}
+
+.outer {
+	width: 1000px;
+	height: 400px;
+	border: 1px solid grey;
+	border-radius: 3px;
+
+}
+
+.outer, .row {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.title_row {
+	position: relative !important;
+	border-bottom: 1px solid grey !important;
+	padding: 5px !important;
+	background: -webkit-linear-gradient(top, #fff 0%, #daeefb 10%);
+}
+
+.label_row {
+	padding-top: 15px !important;
+}
+
+.main_row {
+	height: 350px;
+}
+
+.symbol .glyphicon-usd {
+	font-size: 1.8em !important;
+	padding: 7px !important;
+	padding-top: 8px !important;
+}
+
+p .glyphicon-usd {
+	display: inline-block;
+    vertical-align: top;
+	font-size: 0.5em !important;
+	padding-top: 15px;
+}
+
+.main_title {
+	font-weight: bold;
+	color: #05415b;
+	font-size: 22px !important;
+	padding: 0px;
+	margin: 0px;
+	margin-left:70px;
+}
+
+.label {
+	font-size: 12px !important;
+	color: #05415b;
+	font-weight: 100;
+}
+
+.revenue_nr {
+	font-size: 40px !important;
+	font-weight: bold;
+	text-align: right;
+	padding: 25px;
+	padding-right: 15px;
+	color: #05415b;
+}
+
+.symbol {
+	border-radius: 5px;
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #AAA;
+    /*background-color: #daeefb;*/
+    background: -webkit-linear-gradient(top, #fff 0%, #daeefb 60%); 
+    box-shadow:
+    0 0 0 2px white,
+    0 0 0 3px #BBB;
+}
+
+
 
 
 .ct-series-a .ct-line {
@@ -10,19 +96,22 @@
 
 .ct-series-c .ct-line {
  	stroke: #15a0c8;
- 	/*troke-width: 5px;*/
+ 	/*stroke-width: 5px;*/
 }
 
 .ct-series-a .ct-bar {
  	stroke: #ed6e37;
+ 	stroke-width: 8px;
 }
 
 .ct-series-b .ct-bar {
  	stroke: #259e01;
+ 	stroke-width: 8px;
 }
 
 .ct-series-c .ct-bar {
  	stroke: #15a0c8;
+ 	stroke-width: 8px;
 }
 
 .ct-series-a .ct-area {
