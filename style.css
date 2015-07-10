@@ -1,0 +1,34 @@
+
+
+.ct-series-a .ct-line {
+ 	stroke: #ed6e37;
+}
+
+.ct-series-b .ct-line {
+ 	stroke: #259e01;
+}
+
+.ct-series-c .ct-line {
+ 	stroke: #15a0c8;
+ 	/*troke-width: 5px;*/
+}
+
+.ct-series-a .ct-bar {
+ 	stroke: #ed6e37;
+}
+
+.ct-series-b .ct-bar {
+ 	stroke: #259e01;
+}
+
+.ct-series-c .ct-bar {
+ 	stroke: #15a0c8;
+}
+
+.ct-series-a .ct-area {
+	fill: #ACD1E9;
+}
+
+.ct-series-a .ct-circle{fill:#ed6e37;stroke-width:3;stroke:white;}
+.ct-series-b .ct-circle{fill:#259e01;stroke-width:3;stroke:white;}
+.ct-series-c .ct-circle{fill:#15a0c8;stroke-width:3;stroke:white;}
