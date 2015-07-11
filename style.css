@@ -1,6 +1,9 @@
 * {
 	font-size: 12px !important; 
+}
 
+button {
+	border: none;
 }
 
 .outer {
@@ -40,8 +43,9 @@
 p .glyphicon-usd {
 	display: inline-block;
     vertical-align: top;
-	font-size: 0.5em !important;
+	font-size: 0.45em !important;
 	padding-top: 15px;
+	color: #306992;
 }
 
 .main_title {
@@ -51,6 +55,28 @@ p .glyphicon-usd {
 	padding: 0px;
 	margin: 0px;
 	margin-left:70px;
+}
+
+button {
+	font-size: 13px !important;
+    float: right;
+    display: block;
+    margin-right: 15px;
+    clear: left;
+    margin-top: 160px;
+    width: 140px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #1dc0ef, #056e8d);
+    border-radius: 7px;
+    border-top: 2px solid #18acd6;
+    border-left: 2px solid #0f8fb4;
+    border-right: 2px solid #0f8fb4;
+    box-shadow:
+    0 0 0 2px white,
+	0px 5px 6px #BBB,
+	inset 0px 1px 0px 0px white;
 }
 
 .label {
@@ -63,9 +89,18 @@ p .glyphicon-usd {
 	font-size: 40px !important;
 	font-weight: bold;
 	text-align: right;
-	padding: 25px;
+	padding-top: 25px;
 	padding-right: 15px;
+	margin-bottom: -6px !important;
 	color: #05415b;
+}
+
+.stream {
+	font-size: 12px !important;
+	font-weight: bold;
+	text-align: right;
+	padding-right: 15px;
+	color: #306992;
 }
 
 .symbol {
@@ -76,11 +111,11 @@ p .glyphicon-usd {
     width: 40px;
     height: 40px;
     border: 1px solid #AAA;
-    /*background-color: #daeefb;*/
     background: -webkit-linear-gradient(top, #fff 0%, #daeefb 60%); 
     box-shadow:
     0 0 0 2px white,
-    0 0 0 3px #BBB;
+    0 0 0 3px #BBB,
+    inset 0px 0px 1px 1px rgba(0,0,0,0.1);
 }
 
 
