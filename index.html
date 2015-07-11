@@ -4,6 +4,8 @@
 	    <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
         <script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700'
+ rel='stylesheet' type='text/css'>
     </head>
 
     <body>
@@ -15,18 +17,32 @@
                 <p class="main_title">Revenue by Solution</p>
             </div>
             <div class="row main_row">
-                <div class="col-md-9">
+                <div class="col-xs-9">
                     <div class='row label_row'>
-                        <div class="col-md-10">
+                        <div class="col-xs-10">
                         </div>
 
-                        <div class="col-md-2">
+                        <div class="col-xs-2">
                             <p class="label">Revenue per week</p>
                         </div>
                     </div>
-                    <div class="ct-chart ct-perfect-fourth" id="lineChart" style="width:800px; height:250px;"></div>
+                    <div class="ct-chart ct-perfect-fourth" id="lineChart" style="width:800px; height:250px"></div>
+                    <div class="key">
+                        <div class="col-xs-4">
+                            <div class="dot" style="background-color:#ed6e37"></div>
+                            <spam>Net Comp</spam>
+                        </div>
+                        <div class="col-xs-4">
+                            <div class="dot" style="background-color:#259e01"></div>
+                            <spam>AnalyzerHR</spam>
+                        </div>
+                        <div class="col-xs-4">
+                            <div class="dot" style="background-color:#15a0c8"></div>
+                            <spam>Question Right</spam>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-xs-3">
                     <p class='revenue_nr'><spam class="glyphicon glyphicon-usd" aria-hidden="true"></spam>306,78</p>
                     <p class='stream'>Revenue Stream</p>
                     <button>Revenue Analysis</button>

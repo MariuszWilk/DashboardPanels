@@ -70,7 +70,7 @@ var barChart = new Chartist.Bar(
 lineChart.on('draw', function(data) {
   if(data.type === 'point') {
     var circle = new Chartist.Svg('circle', {
-      cx: [data.x], cy:[data.y], r:[5],
+      cx: [data.x], cy:[data.y], r:[6],
     }, 'ct-circle');
     data.element.replace(circle);
   }
