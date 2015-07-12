@@ -34,7 +34,7 @@ button {
 
 .title_row {
 	position: relative !important;
-	border-bottom: 1px solid #69AECB !important;
+	border-bottom: 1px solid #69AECB;
 	padding: 0.6em !important;
 	padding-bottom: 0.6em !important;
 	background: -webkit-linear-gradient(top, #fff 0%, #daeefb 10%);
@@ -67,7 +67,7 @@ p .glyphicon {
 	font-size: 1.6em !important;
 	padding: 0em;
 	margin: 0em;
-	margin-left: 3.5em;
+	margin-left: 3.6em;
 }
 
 .col_right {
@@ -81,8 +81,8 @@ button {
     display: block;
     clear: left;
     margin-top: 7em;
-    width: 12em;
-    height: 2.5em;
+    width: 13em;
+    height: 2.7em;
     font-weight: 600;
     color: white;
     padding-bottom: 0.33em;
