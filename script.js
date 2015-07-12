@@ -1,4 +1,33 @@
 
+
+// retireve data //
+
+var xlabels = [];
+
+var lineData01 = [];
+var lineData02 = [];
+var lineData03 = [];
+
+var barData01 = [];
+var barData02 = [];
+var barData03 = [];
+
+var len = data.labels.length
+
+for(i=5; i>0; i--){
+    var fromBack = len - i;
+    xlabels.push(data.labels[fromBack]);
+    lineData01.push(data.numbers[0].lineData01[fromBack]);
+    lineData02.push(data.numbers[1].lineData02[fromBack]);
+    lineData03.push(data.numbers[2].lineData03[fromBack]);
+    barData01.push(data.numbers[0].barData01[fromBack]);
+    barData02.push(data.numbers[1].barData02[fromBack]);
+    barData03.push(data.numbers[2].barData03[fromBack]);
+}
+
+
+// define graphs //
+
 xlabels[xlabels.length - 1] = xlabels[xlabels.length - 1].replace(' ','&nbsp');
 
 
@@ -29,9 +58,7 @@ var lineChart = new Chartist.Line(
 		      y: 0
 		    },
 		    showGrid: false,
-		},
-		width: 800,
-		height: 250,  
+		}, 
 		series: {'one': {showArea: true}},
 		lineSmooth: false,
 		fullWidth: true,
@@ -61,8 +88,6 @@ var barChart = new Chartist.Bar(
         axisX: {
 		    showGrid: false
 		},
-		width: 670,
-		height: 220
 	}
 );
 

@@ -1,49 +1,50 @@
+
 <html>
     <head>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	    <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
         <script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
         <link rel="stylesheet" type="text/css" href="style.css">
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700'
- rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
     </head>
 
     <body>
 
     <div class="container" style="margin-top:40px">
+
         <div class='outer'>
             <div class="row title_row">
-                <div class="symbol"><spam class="glyphicon glyphicon-usd" aria-hidden="true"></spam></div>
+                <div class="symbol"><spam class="glyphicon glyphicon-usd" aria-hidden="true" style="margin-right:3px"></spam></div>
                 <p class="main_title">Revenue by Solution</p>
             </div>
             <div class="row main_row">
-                <div class="col-xs-9">
+                <div class="col-xs-9 nopadding">
                     <div class='row label_row'>
-                        <div class="col-xs-10">
+                        <div class="col-xs-8">
                         </div>
 
-                        <div class="col-xs-2">
+                        <div class="col-xs-4">
                             <p class="label">Revenue per week</p>
                         </div>
                     </div>
-                    <div class="ct-chart ct-perfect-fourth" id="lineChart" style="width:800px; height:250px"></div>
+                    <div class="ct-chart ct-major-twelfth" id="lineChart" ></div>
                     <div class="key">
                         <div class="col-xs-4">
                             <div class="dot" style="background-color:#ed6e37"></div>
-                            <spam>Net Comp</spam>
+                            <spam class="legend">Net Comp</spam>
                         </div>
                         <div class="col-xs-4">
                             <div class="dot" style="background-color:#259e01"></div>
-                            <spam>AnalyzerHR</spam>
+                            <spam class="legend">AnalyzerHR</spam>
                         </div>
                         <div class="col-xs-4">
                             <div class="dot" style="background-color:#15a0c8"></div>
-                            <spam>Question Right</spam>
+                            <spam class="legend">Question Right</spam>
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-3">
-                    <p class='revenue_nr'><spam class="glyphicon glyphicon-usd" aria-hidden="true"></spam>306,78</p>
+                <div class="col-xs-3 nopadding col_right">
+                    <p class='revenue_nr'><spam class="glyphicon glyphicon-usd" aria-hidden="true"></spam>30,678</p>
                     <p class='stream'>Revenue Stream</p>
                     <button>Revenue Analysis</button>
                 </div>
@@ -51,7 +52,46 @@
             </div>
         </div>
 
-    <div class="ct-chart ct-perfect-fourth" id="barChart" style="width:700px; height:300px; margin-top:100px"></div>
+
+        <div class='outer'>
+            <div class="row title_row">
+                <div class="symbol"><spam class="glyphicon glyphicon-circle-arrow-down" aria-hidden="true"></spam></div>
+                <p class="main_title">Installations</p>
+            </div>
+            <div class="row main_row">
+                <div class="col-xs-9 nopadding">
+                    <div class='row label_row'>
+                        <div class="col-xs-8">
+                        </div>
+
+                        <div class="col-xs-4">
+                            <p class="label">Installations per day</p>
+                        </div>
+                    </div>
+                    <div class="ct-chart ct-major-twelfth" id="barChart" ></div>
+                    <div class="key">
+                        <div class="col-xs-4">
+                            <div class="dot" style="background-color:#ed6e37"></div>
+                            <spam class="legend">Net Comp</spam>
+                        </div>
+                        <div class="col-xs-4">
+                            <div class="dot" style="background-color:#259e01"></div>
+                            <spam class="legend">AnalyzerHR</spam>
+                        </div>
+                        <div class="col-xs-4">
+                            <div class="dot" style="background-color:#15a0c8"></div>
+                            <spam class="legend">Question Right</spam>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-3 nopadding col_right">
+                    <p class='revenue_nr'>115</p>
+                    <p class='stream'>Installations</p>
+                    <button>View Installations</button>
+                </div>
+
+            </div>
+        </div>
 
     </div>
 

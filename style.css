@@ -1,18 +1,16 @@
+
 * {
-	font-size: 12px !important; 
-	font-family: 'Open Sans';
+	font-size: 0.96em !important; 
+	font-family: "Open Sans", Arial, sans-serif;
 }
 
 button {
 	border: none;
 }
 
-.outer {
-	width: 1000px;
-	height: 350px;
-	border: 1px solid #3399FF;
-	border-radius: 3px;
-
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
 }
 
 .outer, .row {
@@ -20,125 +18,153 @@ button {
 	padding: 0 !important;
 }
 
+.outer {
+	max-width: 1000px;
+	max-height: 400px;
+	border: 1px solid #69AECB;
+	border-radius: 3px;
+	margin-bottom: 2em !important;
+}
+
 .key {
-	width: 400px;
+	max-width: 400px;
 	margin: auto;
+	margin-bottom: 2.5em;
 }
 
 .title_row {
 	position: relative !important;
-	border-bottom: 1px solid #3399FF !important;
-	padding: 3px !important;
-	padding-bottom: 6px !important;
+	border-bottom: 1px solid #69AECB !important;
+	padding: 0.6em !important;
+	padding-bottom: 0.6em !important;
 	background: -webkit-linear-gradient(top, #fff 0%, #daeefb 10%);
 }
 
 .label_row {
-	padding-top: 15px !important;
+	padding-top: 1.1em !important;
 }
 
 .main_row {
-	height: 350px;
+	max-height: 400px;
 }
 
-.symbol .glyphicon-usd {
-	font-size: 1.7em !important;
-	padding: 7px 8px !important;
+.symbol .glyphicon {
+	font-size: 2.1em !important;
+	padding-top: 0.3em !important;
 }
 
-p .glyphicon-usd {
+p .glyphicon {
 	display: inline-block;
     vertical-align: top;
 	font-size: 0.45em !important;
-	padding-top: 15px;
+	padding-top: 0.9em;
 	color: #1093b8;
 }
 
 .main_title {
 	font-weight: bold;
 	color: #05415b;
-	font-size: 22px !important;
-	padding: 0px;
-	margin: 0px;
-	margin-left: 75px;
+	font-size: 1.6em !important;
+	padding: 0em;
+	margin: 0em;
+	margin-left: 3.5em;
+}
+
+.col_right {
+	padding-right:2.7em !important;
 }
 
 button {
-	font-size: 13px !important;
+	outline: 0;
+	font-size: 1.1em !important;
     float: right;
     display: block;
-    margin-right: 12px;
     clear: left;
-    margin-top: 140px;
-    width: 145px;
-    height: 30px;
+    margin-top: 7em;
+    width: 12em;
+    height: 2.5em;
+    font-weight: 600;
     color: white;
-    font-weight: bold;
-    padding-bottom: 5px;
+    padding-bottom: 0.33em;
     background: linear-gradient(to bottom, #1dc0ef, #056e8d);
-    border-radius: 7px;
-    border-top: 2px solid #18acd6;
-    border-left: 2px solid #0f8fb4;
-    border-right: 2px solid #0f8fb4;
+    border-radius: 0.5em;
+    border-top: 0.2em solid #18acd6;
+    border-left: 0.2em solid #0f8fb4;
+    border-right: 0.2em solid #0f8fb4;
     box-shadow:
-    0 0 0 2px white,
-	0px 5px 6px #BBB,
-	inset 0px 1px 0px 0px white;
+    0 0 0 0.2em white,
+	0em 0.4em 0.6em #BBB,
+	inset 0em 0.1em 0em 0em white;
+}
+
+button:hover {
+    background: linear-gradient(to bottom, #2dd0ff, #157e9d);
+    box-shadow:
+    0 0 0 0.2em white,
+	0em 0.4em 0.6em #AAA,
+	inset 0em 0.1em 0em 0em white;
 }
 
 .label {
-	font-size: 12px !important;
+	font-size: 1.1em !important;
 	color: #05415b;
 	font-weight: 100;
-	padding-left: 35px;
+	margin-left: 5em;
 }
 
 .revenue_nr {
-	font-size: 40px !important;
+	font-size: 4em !important;
 	font-weight: bold;
 	text-align: right;
-	padding-top: 25px;
-	padding-right: 15px;
-	margin-bottom: -6px !important;
+	padding-top: 0.5em;
+	margin-bottom: -0.2em !important;
 	color: #05415b;
 }
 
 .stream {
-	font-size: 13px !important;
+	font-size: 1.2em !important;
 	font-weight: bold;
 	text-align: right;
-	padding-right: 15px;
 	color: #1093b8;
 }
 
 .symbol {
-	border-radius: 5px;
+	text-align: center;
+	border-radius: 0.3em;
     position: absolute;
-    top: -10px;
-    left: 20px;
-    width: 40px;
-    height: 37px;
-    border: 1px solid #AAA;
+    top: -0.9em;
+    left: 1.5em;
+    width: 3.8em;
+    height: 3.5em;
+    border: 0.1em solid #AAA;
     background: -webkit-linear-gradient(top, #fff 0%, #daeefb 60%); 
     box-shadow:
-    0 0 0 2px white,
-    0 0 0 3px #BBB,
-    inset 0px 0px 1px 1px rgba(0,0,0,0.1);
+    0 0 0 0.2em white,
+    0 0 0 0.3em #BBB,
+    inset 0em 0em 0.15em 0.15em rgba(0,0,0,0.1);
+}
+
+.legend {
+	font-size: 1.1em !important;
 }
 
 .dot {
-	margin-bottom: 2px;
-	margin-right: 5px;
+	margin-bottom: 0.18em;
+	margin-right: 0.3em;
 	display: inline-block;
 	border-radius: 50%;
 	width: 6px;
-	height: 6px; 
+	height: 6px;
+}
+
+.outer {
+	margin: 40px;
 }
 
 
 
-/* Chartist CSS */
 
+/* Chartist.js */
 
 .ct-series-a .ct-line {
  	stroke: #ed6e37;
@@ -177,3 +203,28 @@ button {
 .ct-series-a .ct-circle{fill:#ed6e37;stroke-width:3;stroke:white;}
 .ct-series-b .ct-circle{fill:#259e01;stroke-width:3;stroke:white;}
 .ct-series-c .ct-circle{fill:#15a0c8;stroke-width:3;stroke:white;}
+
+
+
+
+
+/* media queries */
+
+@media (max-width: 991px) {
+	.col_right {
+		font-size: 0.75em !important;
+	}	  
+	.label {
+		margin-left: 0em;
+	}
+	.outer {
+		width: 718px;
+	}
+
+}
+
+
+
+
+meta.foundation-data-attribute-namespace {
+  font-family: false; }
